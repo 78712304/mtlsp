@@ -1,0 +1,46 @@
+============ soft version ===========
+1.5.20mik修改版
+============ phoneModel ===========
+V2352A
+============ androidVersion ===========
+15
+============ brand ===========
+vivo
+============ product ===========
+PD2352
+============ totalMemSize ===========
+495438082048
+============ availableMemSize ===========
+159454257152
+============ memInfo ===========
+
+============ displayDetails ===========
+Time=1741496228769
+width=2696
+height=1260
+pixelFormat=1
+refreshRate=120.00001fps
+metrics.density=x3.5
+metrics.scaledDensity=x3.5
+metrics.widthPixels=2696
+metrics.heightPixels=1260
+metrics.xdpi=450.76
+metrics.ydpi=452.993
+============ logcat ===========
+
+============ stackTrace ===========
+java.lang.IllegalArgumentException: View=com.android.internal.policy.DecorView{8d0001d V.E...... R....... 0,0-1197,291}[MainActivity] not attached to window manager
+	at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:624)
+	at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:531)
+	at android.view.WindowManagerImpl.removeViewImmediate(WindowManagerImpl.java:227)
+	at android.app.Dialog.dismissDialog(Dialog.java:504)
+	at android.app.Dialog$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at android.os.Handler.handleCallback(Handler.java:1014)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:250)
+	at android.os.Looper.loop(Looper.java:340)
+	at android.app.ActivityThread.main(ActivityThread.java:9860)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:621)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+
